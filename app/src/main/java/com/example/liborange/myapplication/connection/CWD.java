@@ -19,8 +19,13 @@ package com.example.liborange.myapplication.connection;
  * 　　　　┗┓┓┏━┳┓┏┛
  * 　　　　　┃┫┫　┃┫┫
  * 　　　　　┗┻┛　┗┻┛
- * ━━━━━━神兽出没━━━━━━  Created by liborange on 15/12/21.
+ * ━━━━━━神兽出没━━━━━━  Created by liborange on 15/12/22.
  */
-public interface CmdService {
-    String  execute(Object cmd);
+public enum CWD {
+    forward,
+    back,
+    left,
+    right,
+    fr,
+    fl
 }

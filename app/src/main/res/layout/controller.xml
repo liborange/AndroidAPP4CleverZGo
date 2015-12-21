@@ -28,7 +28,8 @@
                 android:text="FL"
                 android:id="@+id/FL"
                 android:layout_row="21"
-                android:layout_column="5" />
+                android:layout_column="5"
+                android:contentDescription="fl" />
 
             <Button
                 android:layout_width="90dp"
@@ -36,7 +37,8 @@
                 android:text="丄"
                 android:id="@+id/forward"
                 android:layout_row="21"
-                android:layout_column="6" />
+                android:layout_column="6"
+                android:contentDescription="f" />
 
             <Button
                 android:layout_width="80dp"
@@ -44,7 +46,8 @@
                 android:text="FR"
                 android:id="@+id/FR"
                 android:layout_row="21"
-                android:layout_column="7" />
+                android:layout_column="7"
+                android:contentDescription="fr" />
 
             <Button
                 android:layout_width="90dp"
@@ -52,7 +55,8 @@
                 android:text="←"
                 android:id="@+id/left"
                 android:layout_row="22"
-                android:layout_column="5" />
+                android:layout_column="5"
+                android:contentDescription="l" />
 
             <Button
                 android:layout_width="90dp"
@@ -60,7 +64,8 @@
                 android:text="下"
                 android:id="@+id/back"
                 android:layout_row="22"
-                android:layout_column="6" />
+                android:layout_column="6"
+                android:contentDescription="b" />
 
             <Button
                 android:layout_width="90dp"
@@ -68,7 +73,8 @@
                 android:text="→"
                 android:id="@+id/right"
                 android:layout_row="22"
-                android:layout_column="7" />
+                android:layout_column="7"
+                android:contentDescription="r" />
 
         </GridLayout>
 
