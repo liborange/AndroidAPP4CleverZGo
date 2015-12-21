@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Large Text"
+        android:id="@+id/textView3"
+        android:layout_gravity="center_horizontal" />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <GridLayout
+            android:layout_width="297dp"
+            android:layout_height="216dp"
+            android:layout_row="8"
+            android:layout_column="4">
+
+            <Button
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:text="FL"
+                android:id="@+id/FL"
+                android:layout_row="21"
+                android:layout_column="5" />
+
+            <Button
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:text="丄"
+                android:id="@+id/forward"
+                android:layout_row="21"
+                android:layout_column="6" />
+
+            <Button
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:text="FR"
+                android:id="@+id/FR"
+                android:layout_row="21"
+                android:layout_column="7" />
+
+            <Button
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:text="←"
+                android:id="@+id/left"
+                android:layout_row="22"
+                android:layout_column="5" />
+
+            <Button
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:text="下"
+                android:id="@+id/back"
+                android:layout_row="22"
+                android:layout_column="6" />
+
+            <Button
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:text="→"
+                android:id="@+id/right"
+                android:layout_row="22"
+                android:layout_column="7" />
+
+        </GridLayout>
+
+    </GridLayout>
+</LinearLayout>
